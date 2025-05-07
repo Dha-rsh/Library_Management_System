@@ -8,9 +8,9 @@ Timeline: 2 weeks
 Budget: nil
 Total Members: 2
 Features: 
-    • User Registration & Login
-    • User Profile-Admin, Librarian, Student, Narrator, Guest
-    • Book Management -Add/Edit/Delete/View books
+    - User Registration & Login
+    - User Profile-Admin, Librarian, Student, Narrator, Guest
+    - Book Management -Add/Edit/Delete/View books
     • Search & Advanced Filters-By title, author, genre, ISBN, availability
     • Borrowing System - issue & return books with due dates
     • Availability Status -Real-time book status (Available/Issued)
