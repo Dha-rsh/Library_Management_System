@@ -34,6 +34,23 @@ Additional Features:
 * Review & Rating System -Users can review and rate books
 * User Dashboard-View borrowed books, history, and profile
 * Admin & Librarian Dashboard-User activity logs, system overview
+
+
+
+class diagrams:
+---------------
+
+class : UserRegistration{
+- userID: int  
+- userName: String  
+- email: String  
+- password: String  
+- confirmPassword: String  
+- role: String  // "admin", "librarian", "student", etc.  
++ registerUser(): User
+
+  }
+
     
 
 
