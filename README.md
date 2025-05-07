@@ -30,9 +30,9 @@ Additional Features:
 --------------------
     * Notifications & Alerts-Due date reminders, new book arrivals
     * Audiobook Upload & Streaming-Narrators can add and manage audio versions
-    • Review & Rating System -Users can review and rate books
-    • User Dashboard-View borrowed books, history, and profile
-    • Admin & Librarian Dashboard-User activity logs, system overview
+    * Review & Rating System -Users can review and rate books
+    * User Dashboard-View borrowed books, history, and profile
+    * Admin & Librarian Dashboard-User activity logs, system overview
 
 
 
