@@ -1,4 +1,4 @@
-1. Library Management System:
+Library Management System:
    
 Title:    Book Shelf
 Target Audience: Librarians
@@ -8,9 +8,9 @@ Timeline: 2 weeks
 Budget: nil
 Total Members: 2
 Features: 
-    - User Registration & Login
-    - User Profile-Admin, Librarian, Student, Narrator, Guest
-    - Book Management -Add/Edit/Delete/View books
+    -User Registration & Login
+    -User Profile-Admin, Librarian, Student, Narrator, Guest
+    -Book Management -Add/Edit/Delete/View books
    
 
 
