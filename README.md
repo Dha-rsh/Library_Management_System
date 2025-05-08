@@ -7,7 +7,7 @@ Target Audience: Librarians
 
 End Users: Students,College staff, Aspirant,Business,Comman Peoples, Book Worms, Narrator 
 
-Type: Business to Business (B2B)
+Type: Business to Business (B2B)   
 
 Timeline: 2 weeks
 
