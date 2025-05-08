@@ -39,17 +39,88 @@ Additional Features:
 
 class diagrams:
 ---------------
-
-class : UserRegistration{
-- userID: int  
-- userName: String  
-- email: String  
-- password: String  
-- confirmPassword: String  
-- role: String  // "admin", "librarian", "student", etc.  
-+ registerUser(): User
-
+Class: UserRegistration{
+- userID: int
+- userName: String
+- email: String
+- password: String
+- confirmPassword: String
+- role: String  // "admin", "librarian", "student", "narrator", "guest"
   }
+
+
+  class: LoginPage{
+  - userName: String
+- password: String
+
+}     
+
+class: UserProfile{
+- userID: int
+- name: String
+- email: String
+- role: String
+- address: String
+- phoneNumber: String
+- profilePicture: String
+
+}
+  Class: Book
+{
+- bookID: int
+- title: String
+- author: String
+- genre: String
+- ISBN: String
+- publishDate: Date
+- description: String
+- status: String  // "Available", "Issued"
+- audioAvailable: boolean
+- rating: float
+  }
+
+  Class: BookManagement
+{
+- book: Book
+- addedBy: int  // userID of librarian/admin
+- dateAdded: Date
+- lastModified: Date
+}
+ Class: SearchFilter
+{
+- keyword: String
+- title: String
+- author: String
+- genre: String
+- ISBN: String
+- availabilityStatus: String  // "Available", "Issued"
+  }  
+ Class Borrowing
+{
+- borrowID: int
+- userID: int
+- bookID: int
+- issueDate: Date
+- dueDate: Date
+- returnDate: Date
+- isReturned: boolean
+- fineAmount: float
+  }
+   Class: AvailabilityStatus
+{
+- bookID: int
+- isAvailable: boolean
+- currentHolderID: int  // userID of the person who borrowed
+- expectedReturnDate: Date
+  }
+Class: OverdueManagement
+{
+- borrowID: int
+- userID: int
+- daysOverdue: int
+- finePerDay: float
+- totalFine: float
+}
 
     
 
