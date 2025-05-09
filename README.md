@@ -48,8 +48,7 @@ Class: UserRegistration{
 - role: String  // "admin", "librarian", "student", "narrator", "guest"
   }
 
-
-  class: LoginPage{
+class: LoginPage{
   - userName: String
 - password: String
 
@@ -65,7 +64,8 @@ class: UserProfile{
 - profilePicture: String
 
 }
-  Class: Book
+  
+Class: Book
 {
 - bookID: int
 - title: String
@@ -79,14 +79,16 @@ class: UserProfile{
 - rating: float
   }
 
-  Class: BookManagement
+Class: BookManagement
 {
 - book: Book
 - addedBy: int  // userID of librarian/admin
 - dateAdded: Date
 - lastModified: Date
-}
- Class: SearchFilter
+
+}  
+
+Class: SearchFilter
 {
 - keyword: String
 - title: String
@@ -94,8 +96,9 @@ class: UserProfile{
 - genre: String
 - ISBN: String
 - availabilityStatus: String  // "Available", "Issued"
-  }  
- Class Borrowing
+  }
+  
+Class Borrowing
 {
 - borrowID: int
 - userID: int
@@ -106,13 +109,15 @@ class: UserProfile{
 - isReturned: boolean
 - fineAmount: float
   }
-   Class: AvailabilityStatus
+  
+Class: AvailabilityStatus
 {
 - bookID: int
 - isAvailable: boolean
 - currentHolderID: int  // userID of the person who borrowed
 - expectedReturnDate: Date
   }
+  
 Class: OverdueManagement
 {
 - borrowID: int
