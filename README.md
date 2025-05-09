@@ -42,6 +42,7 @@ class diagrams:
 Class: UserRegistration
 
   {
+
 - userID: int
 - userName: String
 - email: String
@@ -54,6 +55,7 @@ Class: UserRegistration
 class: LoginPage
 
   {
+
   - userName: String
 - password: String
 
@@ -62,6 +64,7 @@ class: LoginPage
 class: UserProfile  
 
   {
+
 - userID: int
 - name: String
 - email: String
@@ -75,6 +78,7 @@ class: UserProfile
 Class: Book
 
   {
+
 - bookID: int
 - title: String
 - author: String
@@ -91,6 +95,7 @@ Class: Book
 Class: BookManagement
 
   {
+
 - book: Book
 - addedBy: int  // userID of librarian/admin
 - dateAdded: Date
@@ -101,6 +106,7 @@ Class: BookManagement
 Class: SearchFilter
 
   {
+
 - keyword: String
 - title: String
 - author: String
@@ -113,6 +119,7 @@ Class: SearchFilter
 Class Borrowing
 
   {
+
 - borrowID: int
 - userID: int
 - bookID: int
@@ -127,6 +134,7 @@ Class Borrowing
 Class: AvailabilityStatus
 
   {
+
 - bookID: int
 - isAvailable: boolean
 - currentHolderID: int  // userID of the person who borrowed
@@ -137,6 +145,7 @@ Class: AvailabilityStatus
 Class: OverdueManagement
 
   {
+
 - borrowID: int
 - userID: int
 - daysOverdue: int
